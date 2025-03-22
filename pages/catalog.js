@@ -1,1 +1,1 @@
-export default function Catalog() { return <div>Catalog</div>; }
+// Catalog page with product listings

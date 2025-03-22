@@ -1,1 +1,1 @@
-export default function Navbar() { return <nav>Navbar</nav>; }
+// Navbar component

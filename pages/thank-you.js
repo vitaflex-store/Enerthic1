@@ -1,1 +1,1 @@
-export default function ThankYou() { return <h1>Danke für Ihre Nachricht!</h1>; }
+// Thank you page after form submission
