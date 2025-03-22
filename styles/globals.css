@@ -1,11 +1,52 @@
-
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #f5f5f5;
 }
-a {
+.hero {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0ffe7, #f5f5f5);
+  padding: 20px;
+}
+.heroBox {
+  text-align: center;
+  padding: 50px 30px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  max-width: 650px;
+  width: 100%;
+}
+.heroTitle {
+  font-size: 3rem;
+  color: #00c853;
+  margin-bottom: 20px;
+}
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.button, .buttonOutline {
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
   text-decoration: none;
-  color: inherit;
+}
+.button {
+  background-color: #00c853;
+  color: #fff;
+}
+.buttonOutline {
+  border: 2px solid #00c853;
+  color: #00c853;
 }
