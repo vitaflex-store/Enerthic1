@@ -1,3 +1,1 @@
-export default function Cart() {
-  return <div>Carrito</div>;
-}
+export default function Cart() { return <div>Cart Page</div>; }

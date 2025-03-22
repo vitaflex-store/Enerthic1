@@ -1,3 +1,1 @@
-export default function Contact() {
-  return <div>Formulario de contacto</div>;
-}
+export default function Contact() { return <div>Contact Page</div>; }
