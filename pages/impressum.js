@@ -1,1 +1,1 @@
-export default function Impressum() { return <div>Impressum Page</div>; }
+export default function Impressum() { return <main>Impressum</main>; }

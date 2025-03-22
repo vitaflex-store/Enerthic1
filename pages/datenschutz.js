@@ -1,1 +1,1 @@
-export default function Datenschutz() { return <div>Datenschutz Page</div>; }
+export default function Datenschutz() { return <main>Datenschutz</main>; }

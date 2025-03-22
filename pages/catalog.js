@@ -1,1 +1,1 @@
-export default function Catalog() { return <div>Catalog Page</div>; }
+export default function Catalog() { return <main>Katalog</main>; }

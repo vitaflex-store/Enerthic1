@@ -1,3 +1,17 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-export default function Home() { return (<><Navbar /><main><h1>Home</h1></main><Footer /></>); }
+
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Enerthic</title>
+        <meta name="description" content="Modern fitness & natural products" />
+      </Head>
+      <main>
+        <h1>Willkommen bei Enerthic 💪</h1>
+        <p>Dein Shop für Fitnesszubehör und natürliche Produkte 🌱</p>
+      </main>
+    </>
+  );
+}

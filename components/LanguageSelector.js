@@ -1,1 +1,4 @@
-export default function LanguageSelector() { return <div>LangSelector</div>; }
+
+export default function LanguageSelector() {
+  return <div>Language Selector</div>;
+}
